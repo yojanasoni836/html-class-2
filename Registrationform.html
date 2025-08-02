@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Student Registration 🖋️🖋️</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="name">Full name</label>
+            <input type="text" id="name" placeholder="XYZ..." Required><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br>
+            
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" placeholder="me@gmail.com"><br><br>
+        <legend>Course Info</legend>
+        <label for="course">choose course</label>
+        <select id="course">
+            <optgroup label="COMPUTER APPLICATION COARSE">
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            </optgroup>
+
+            <optgroup label="BUSSINESS APPLICATION COARSE">
+            <option value="BBA" selected>BBA</option>
+            <option value="MBA">MBA</option>
+            </optgroup>
+           
+        </select><br><br>
+        </fieldset>
+        <label for="Feedback">Feedback</label>
+        <textarea id="feedback" rows="4" cols="30"></textarea>
+        <input type="checkbox"> <strong>I agree to terms</strong><br><br>
+        <input type="submit" value="Register">
+    </form>
+    
+</body>
+</html>
